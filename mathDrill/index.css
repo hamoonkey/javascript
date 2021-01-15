@@ -1,0 +1,14 @@
+.qa{
+  text-align: center;
+  border: solid;
+}
+#question{
+  font-size: xxx-large;
+}
+#incorrect{
+  color: red;
+}
+#answer{
+  font-size: x-large;
+  width: 10%;
+}

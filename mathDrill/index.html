@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head> <!--ページの情報-->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <title>計算ドリル</title>
+  </head>
+
+  <body>
+
+    <h1 id="h1">まずは、2桁×2桁！基本が大事だぞ</h1>
+
+    <table id="history" style="display: none;">
+      <tr>
+        <th>
+          問題
+        </th>
+        <th>
+          間違えた回数
+        </th>
+        <th>
+          かかった秒
+        </th>
+      </tr>
+    </table>
+
+    <div class="qa">
+
+      <h2 id="num">第◇問</h2>
+      <p id="question">◇×◇</p>
+      <p>
+        半角で答えを入力して、エンターキーを押してください
+      </p>
+      <p id="incorrect" style="display: none;">
+        違います！
+      </p>
+
+      <p>
+        <input type="text" id="answer" value=""/>
+      </p>
+
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
