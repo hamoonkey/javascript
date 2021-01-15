@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head> <!--ページの情報-->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="study.css">
+    <title>感染シミュレーション</title>
+  </head>
+
+  <body>
+
+    <div>
+      <h1>感染状況</h1>
+      <input type="button" id="btn0" value="一時停止">
+      <p>
+        白色：未感染 赤色：現在感染中 青色：既感染
+      </p>
+      <canvas id="cn0" width="500" height="300"></canvas>
+      <canvas id="cn1" width="200" height="300"></canvas>
+    </div>
+
+    <h3><span id="btn1">+</span>履歴</h3>
+    <table id="history" style="display: none;">
+      <tr>
+        <th>
+          時刻
+        </th>
+        <th>
+          感染者数
+        </th>
+      </tr>
+    </table>
+
+    <script src="study.js"></script>
+  </body>
+</html>

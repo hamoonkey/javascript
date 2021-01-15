@@ -1,0 +1,15 @@
+canvas{
+  display: inline-block;
+  border: solid;
+  vertical-align: middle;
+}
+
+#cn1{
+  border: none;
+}
+
+#btn1{
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
